@@ -1,28 +1,3 @@
-<div id="lyric-player"></div>
-<song
-name="Name Song"
-song="http://www.botecodigital.info/exemplos/audio/i_am_the_doctor.mp3"
-cover="cover.png"
-artist="Artist Name"
-album="Album Name">
-  <lyric time="00:00:01" value="Part of Music"></lyric>
-  <lyric time="00:00:02" value="Part of Music 2"></lyric>
-  <lyric time="00:00:03" value="Part of Music 3"></lyric>
-  <lyric time="00:00:04" value="Part of Music"></lyric>
-  <lyric time="00:00:05" value="Part of Music 2"></lyric>
-  <lyric time="00:00:06" value="Part of Music 3"></lyric>
-  <lyric time="00:00:07" value="Part of Music"></lyric>
-  <lyric time="00:00:08" value="Part of Music 2"></lyric>
-  <lyric time="00:00:09" value="Part of Music 3"></lyric>
-  <lyric time="00:00:10" value="Part of Music"></lyric>
-  <lyric time="00:00:11" value="Part of Music 2"></lyric>
-  <lyric time="00:00:12" value="Part of Music Obarr"></lyric>
-</song>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script>
 //Peaga todas as musicas para a playlist
 var songs = document.getElementsByTagName('song');
 var song_now = 0;
@@ -121,4 +96,3 @@ function lyric_str( sec ) {
 
   return result;
 }
-</script>
